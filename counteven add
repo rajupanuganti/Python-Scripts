@@ -1,0 +1,15 @@
+def count(lst):
+    even = 0
+    odd = 0
+    for i in lst:
+        if i % 2 == 0:
+            even += 1
+        else:
+            odd += 1
+
+    return even, odd
+
+
+lst = [12, 13, 16, 47, 89, 99, 77]
+even, add = count(lst)
+print('Even:  Odd :' ,even,add)
